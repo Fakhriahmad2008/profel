@@ -1,19 +1,59 @@
-<html>
- <head>   
-	 <title>nyobo</title> 
- </head>
- <body>
-<body style=background-color:black;">
-	<h1> <p style="color:white">assalamualaikum broo 
-		<h2><p style="color:white">sugeng rawuh
-	<h3><p style="color:white">ini adalah ikan triyono
-	<img src="IKAN.png"height="180">
-		<img src="ee4828fc8b81bdb5e958b59cf16d946d.jpg"height="180">
-	<img src="ee4828fc8b81bdb5e958b59cf16d946d.jpg"height="180">
-		
+<!DOCTYPE html>
+<html lang="id">
+<head>   
+  <meta charset="UTF-8">
+  <title>Nyobo</title>
+  <style>
+    /* Warna latar belakang gradien biru-hitam */
+    body {
+      background: linear-gradient(135deg, #000000, #001f3f, #000000);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      padding: 40px;
+      animation: fadeIn 1.5s ease-in;
+    }
 
+    /* Animasi masuk halus */
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
 
- </body>
+    h1, h2, h3 {
+      text-shadow: 0 0 10px #00bfff, 0 0 20px #0099ff;
+      margin-bottom: 10px;
+    }
+
+    h1 { font-size: 40px; color: #00bfff; }
+    h2 { font-size: 30px; color: #66ccff; }
+    h3 { font-size: 24px; color: #a3cfff; }
+
+    img {
+      border: 3px solid #00bfff;
+      border-radius: 15px;
+      box-shadow: 0 0 20px #00bfff;
+      margin: 10px;
+      transition: transform 0.4s, box-shadow 0.4s;
+    }
+
+    img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 30px #0099ff, 0 0 50px #00bfff;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Assalamualaikum broo</h1>
+  <h2>Sugeng rawuh</h2>
+  <h3>Ini adalah ikan triyono</h3>
+
+  <div>
+    <img src="IKAN.png" height="180" alt="ikan triyono">
+    <img src="ee4828fc8b81bdb5e958b59cf16d946d.jpg" height="180" alt="ikan lain">
+    <img src="ee4828fc8b81bdb5e958b59cf16d946d.jpg" height="180" alt="ikan keren">
+  </div>
+</body>
 </html>
-
-
