@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contoh javascript dasar</title>
+    <style>
+body {
+   
+;
+}
+h1 {
+    text-align:center;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    
+}
+</style>
+<body>
+    <h1>selamat datang di praktikum javascript</h1>
+    <button id="tombolsapa">rubah teks paragraf</button>
+     <button id="tombolwarna">ubah background</button>
+     <p id="tekspesan">ini teks awal</p>
+         <script>
+        //untuk  tombol sapa(mengubah teks paragraf)
+        const tombolsapa = document.getElementById('tombolsapa');
+         tombolsapa.addEventListener('click',function() {
+            document.getElementById('tekspesan').textContent = 'halo anda telah mengubah teks ini dengan javascript';
+         });
+       //untuk tombol warna(mengubah warna latar belakang)
+       const tombolwarna = document.getElementById('tombolwarna');
+       tombolwarna.addEventListener('click',function() {
+        document.body.style.backgroundColor='blue';
+       });
+    </script>
+</body>
+</html>
